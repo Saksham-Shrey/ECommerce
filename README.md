@@ -162,6 +162,3 @@ The application uses the [Fake Store API](https://fakestoreapi.com) for demonstr
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contributors
-
-- Saksham Shrey - Initial development and architecture
