@@ -120,6 +120,16 @@ ECommerce/
 
 The application uses the [Fake Store API](https://fakestoreapi.com) for demonstration purposes. No API key is required.
 
+## Screenshots
+<img src="https://github.com/user-attachments/assets/10f55408-06b1-427e-bba1-01a5069ed71a" style="height: 350px;" />
+<img src="https://github.com/user-attachments/assets/3fa30913-a74a-4a20-b49d-966fee44068b" style="height: 350px;" />
+<img src="https://github.com/user-attachments/assets/748de9a6-6e3a-45f2-b1ab-0cdd9366b21b" style="height: 350px;" />
+<img src="https://github.com/user-attachments/assets/e0962807-6217-40de-a95c-2779d39605d4" style="height: 350px;" />
+<img src="https://github.com/user-attachments/assets/a7dc7c11-80c7-4c98-a9d6-0caebd034666" style="height: 350px;" />
+<img src="https://github.com/user-attachments/assets/acdc1640-b2e9-4592-bf0c-cc6d5032c1c9" style="height: 350px;" />
+
+
+
 ## Best Practices
 
 ### Code Style
