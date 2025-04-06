@@ -9,14 +9,13 @@ A professional e-commerce application built with SwiftUI, implementing industry 
 - **Refined, Modern UI**: Following Apple's Human Interface Guidelines with smooth animations and transitions
 - **Responsive Design**: Adapts to all iOS device sizes
 - **Dark Mode Support**: Automatically adjusts to system appearance settings
-- **Accessibility**: VoiceOver compatibility and support for Dynamic Type
 
 ### Shopping Experience
 
 - **Product Catalog**: Displays products with images, titles, prices, and ratings
 - **Categories**: Browse products by category with intuitive navigation
-- **Product Details**: Comprehensive view with full product information, ratings, and reviews
-- **Search**: Advanced search functionality with real-time filtering
+- **Product Details**: Comprehensive view with full product information and ratings
+- **Search**: Real-time filtering of products
 - **Favorites**: Save and manage favorite products for quick access
 - **Cart Management**: Add, remove, and adjust quantities of items in cart
 - **Flash Sales**: Special promotions with countdown timers
@@ -26,7 +25,7 @@ A professional e-commerce application built with SwiftUI, implementing industry 
 - **Efficient Data Loading**: Fast startup and smooth browsing experience
 - **Pull-to-Refresh**: Update product data with intuitive gesture
 - **Optimized Image Loading**: Asynchronous loading with caching for performance
-- **Network Resilience**: Graceful error handling and offline support
+- **Network Resilience**: Graceful error handling
 - **Background Prefetching**: Preloads data and images for seamless browsing
 - **Responsive UI**: Maintains fluidity during network operations
 
@@ -53,7 +52,7 @@ ECommerce/
 │   └── TabBar/         # Main navigation structure
 ├── UI/
 │   └── Components/     # Reusable UI elements
-└── Resources/          # Assets and configuration files
+└── Assets.xcassets/    # Assets and resources
 ```
 
 ### Key Components
@@ -77,7 +76,6 @@ ECommerce/
 - **Swift Concurrency**: Using `async/await` for clean asynchronous code
 - **Actors**: Thread-safe data management with Swift actors
 - **SwiftUI**: Declarative UI with the latest SwiftUI features
-- **Combine**: Reactive programming for data flow
 
 ### Performance Optimizations
 
@@ -85,7 +83,6 @@ ECommerce/
 - **Background Processing**: Non-blocking data operations
 - **Lazy Loading**: Just-in-time resource loading
 - **Prefetching**: Anticipatory data loading for smooth browsing
-- **Efficient UI Updates**: Minimized view recomposition
 
 ### Networking
 
@@ -123,14 +120,6 @@ ECommerce/
 
 The application uses the [Fake Store API](https://fakestoreapi.com) for demonstration purposes. No API key is required.
 
-## Testing
-
-- **Unit Tests**: Test core business logic
-- **UI Tests**: Validate key user flows
-- **Performance Tests**: Ensure optimal application performance
-
-Run tests in Xcode using Command+U
-
 ## Best Practices
 
 ### Code Style
@@ -145,7 +134,6 @@ Run tests in Xcode using Command+U
 - **Property Wrappers**: Appropriate use of `@State`, `@ObservedObject`, etc.
 - **View Composition**: Breaking down complex views into reusable components
 - **Environment Values**: Using `@Environment` for system-wide settings
-- **Preview Support**: Comprehensive preview configurations for development
 
 ## Future Enhancements
 
@@ -156,6 +144,9 @@ Run tests in Xcode using Command+U
 - Enhanced product filtering and sorting
 - Reviews and ratings submission
 - Localization support
+- Accessibility features including VoiceOver compatibility and Dynamic Type
+- Offline support
+- Unit, UI, and performance tests
 
 ## License
 
